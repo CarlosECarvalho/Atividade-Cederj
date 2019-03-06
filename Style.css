@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Stoke");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+body { background-color: #ffdd55;
+    color: #ff1111;
+    font-size: 16px;
+    font-family: Stoke, Verdana, liberation;
+    width: 750px;
+}
+header {display:block; 
+    margin-bottom: 1px;}
+nav { display:block; 
+    width: 150px; 
+    float: left; 
+    margin-right: 10px;
+    color: #883322;
+    font-weight: bold;
+    font-family: Stoke, verdana, liberation;
+    line-height:230%;
+    margin-top: 40px;}
+section { display:block; 
+    width: 76%; 
+    float: right; }
+a {text-decoration: none;}
+a:link {color:#dd0000;}
+a:visited{ color: #cc0000;}
+ol, ul{line-height:200%;}
+img.imgLogo {padding-bottom: 15px;
+    border-bottom: solid;
+    margin-bottom: 6px;}
+address.ender{ text-align: right;
+    font-size: 15px;
+    line-height: 140%;
+    float:right;}
+section.apres{ text-align: center;
+    font-size: 18px;}
+ol.listaTipos{ background-color: #EECC88;
+    text-decoration-color: #AA0000;
+    padding: 10px 10px 10px 50px;
+    margin: 30px 10px 10px 10px;
+    border: 2px solid #000055;}
