@@ -17,5 +17,33 @@
                         <li><a href="Estoque.html" target=_blank>Estoque</a></li>
                         <li><a href="Cadastro.html" target=_blank>Cadastro</a></li>
                         <li><a href="Compras.html" target=_blank>Compras</a></li></ul></nav>
+                        <section>
+                            <form method="post" id="Cadastro">
+                                <h2>Cadastro</h2>
+                                <fieldset>
+                                    <legend>Identificação:</legend>
+                                    <div class="divLinha"><label for="iemail" class="colPri">E-mail:</label><input type="email" size="20" maxlength="20" name="email" id="iemail"  class="inpGrande"><!-- elemento a direita arrumado e input grande setado--> 
+                                        <p><label for="isenha" class="colPri">Senha: </label><input type="password" size="8" maxlength="8" name="senha" id="isenha" class="inpMedio"><!--elemento da esquerda ok--><span class="elemDir"><label for="iconf">Confirme: </label><!--elemento da direita com problema--><input type="password" size="6" maxlength="8" name="conf" id="iconf" class="inpMedio"></span></p></div>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Dados Pessoais:</legend>
+                                        <div class="divLinha"><label for="iNome" class="colPri">Nome:</label><input type="text" size="30" maxlength="30" name="Nome" id="iNome"  class="inpGrande"><!-- elemento a direita arrumado e input grande setado-->
+                                        <label for="iendereco" class="colPri">Endereço:</label><textarea cols="45" rows="3" name="endereco" id="iendereco"></textarea><!-- elemento a direita arrumado e input grande setado-->
+                                        <label for="iTel" class="colPri">Telefone:</label><input type="tel" size="11" maxlength="11" name="Tel" id="iTel" class="inpMedio"><!--Elemento da esquerda ok--> 
+                                        <span class="elemDir"><label for="iCel">Celular:</label><!--elemento da direita arrumado com problema--><input type="tel" size="11" maxlength="11" name="Cel" id="iCel" class="inpMedio"></span>
+                                    <fieldset class="fsEsq">
+                                        <legend >Nascimento:</legend>
+                                        <input type="number" name="numd" id="inum" min="1" max="31" class="numDD">/<input type="number" name="numm" id="inumm" min="1" max="12" class="numDD">/<input type="number" name="numa" id="inuma" min="1920" max="2000" class="numQD" value="1980" >
+                                    </fieldset>
+                                    <fieldset class="fsDir">
+                                        <legend>Sexo:</legend>
+                                    <input type="radio" name="sexo" id="imasc" checked> <label for="imasc">Masculino</label>
+                                    <input type="radio" name="sexo" id="ifem"><label for="ifem">Feminino</label>
+                                    </fieldset></div>
+                                </fieldset>
+                                <div class="botoes"><input type="submit" value="Enviar">
+                                <input type="reset" value="Limpar"></div><!-- alinhamento a direita e espaçamento setado-->
+                            </form>
+                        </section>
     </body>
 </html>

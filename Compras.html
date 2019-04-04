@@ -17,5 +17,46 @@
                         <li><a href="Estoque.html" target=_blank>Estoque</a></li>
                         <li><a href="Cadastro.html" target=_blank>Cadastro</a></li>
                         <li><a href="Compras.html" target=_blank>Compras</a></li></ul></nav>
+                        <section>
+                            <form>
+                                <div ><p>Compras</p>
+                                <fieldset>
+                                    <legend>Identificação</legend>
+                                    <p><label for="ie-mail">E-mail: </label><input type="email" name="e-mail" id="ie-mail" size="50" maxlength="50" class="inpEmail"> <label for="icsenha">Senha:  </label> <input type="password" name="csenha" id="icsenha" size="8" maxlength="8"></p>
+                                    <p>Se você ainda não tem cadastro clique <a href="Cadastro.html" target=>aqui!</a> </p>
+                                </fieldset></div>
+                                <div><fieldset >
+                                    <legend >Lista de Compras e Pagamento</legend>
+                                    <div class="colPriCompras"><p><label for="iprodutos" >Produtos:</label></p>
+                                    <select name="produtos" id="iprodutos">
+                                        <option selected>-----</option>
+                                        <optgroup label="Fogão">
+                                        <option>
+                                        Brastemp 4B. BF04N</option>
+                                        <option>Brastemp 6B. BFS6N</option>
+                                        <option>Electrolux 4B. 50SBC</option>
+                                        </optgroup>
+                                        <optgroup label="Forno"><option>
+                                        Eletrico Philco 46L</option>
+                                        <option>Gás 56 Litros Itajobi</option></optgroup>
+                                    </select>
+                                    <input type="submit" value="Comprar"></div>
+                                    <div class="fsDirCompras"><textarea row="100" cols="20" class="text"></textarea>
+                                        <label for="ivalor">Valor: R$ </label><input type="text" name="valor" id="ivalor" size="8" readonly></div>                                    
+                                    <fieldset class="fsEsqCompras">
+                                        <Legend >Dados do Cartão</Legend>
+                                        <fieldset><legend for="Visa">Bandeira do Cartão</legend>
+                                        <input type="radio" name="bandeira" id="Visa" checked><label for="Visa">Visa</label>
+                                        <input type="radio" name="bandeira" id="Master"><label for="Master">Master</label>
+                                        <input type="radio" name="bandeira" id="Elo"><label for="Elo">Elo</label></fieldset>
+                                        <p><label for="imesv">Validade:  </label><input type="number" name="mesv" id="imesv" size="2" maxlength="2" min="1" max="12" class="numDD" value="1">/ <input type="number" name="anov" id="ianov" size="4" maxlength="4" min="2019" max="2026" class="numQD" value="2019"></p>
+                                        <p><label for="icnum">Número: </label><input type="text" name="cnum" id="icnum" size="16" maxlength="16"></p>
+                                    </fieldset>
+                                </fieldset>
+                                <div class="buttons"><input type="submit" value="Enviar">
+                                    <input type="reset" value="Limpar"></div></div>
+                                
+                            </form>
+                        </section>
     </body>
 </html>

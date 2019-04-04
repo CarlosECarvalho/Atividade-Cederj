@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Stoke");
 @import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
 body { background-color: #ffdd55;
     color: #ff1111;
     font-size: 16px;
     font-family: Stoke, Verdana, liberation;
-    width: 750px;
-}
+    width: 750px;}
+
 header {display:block; 
-    margin-bottom: 1px;
-}
+    margin-bottom: 1px;}
 
 nav { display:block; 
     width: 150px; 
@@ -19,44 +19,151 @@ nav { display:block;
     font-weight: bold;
     font-family: Stoke, verdana, liberation;
     line-height:230%;
-    margin-top: 40px;
-}
+    margin-top: 40px;}
 
 section { display:block; 
     width: 76%; 
-    float: right; 
-}
+    float: right; }
 
-a {text-decoration: none;
-}
+a {text-decoration: none;}
 
-a:link {color:#dd0000;
-}
+a:link {color:#dd0000;}
 
-a:visited{ color: #cc0000;
-}
+a:visited{ color: #cc0000;}
 
-ol, ul{line-height:200%;
-}
+ol, ul{line-height:200%;}
 
 img.imgLogo {padding-bottom: 15px;
     border-bottom: solid;
-    margin-bottom: 6px;
-}
+    margin-bottom: 6px;}
 
 address.ender{ text-align: right;
     font-size: 15px;
     line-height: 140%;
-    float:right;
-}
+    float:right;}
 
 section.apres{ text-align: center;
-    font-size: 18px;
-}
+    font-size: 18px;}
 
 ol.listaTipos{ background-color: #EECC88;
     text-decoration-color: #AA0000;
     padding: 10px 10px 10px 50px;
     margin: 30px 10px 10px 10px;
-    border: 2px solid #000055;
+    border: 2px solid #000055;}
+td.imgCel {background-color: #ffffff;
+    }
+
+td, th {border: 3px solid #226699;
+    padding: 6px 12px 6px 12px;
 }
+
+table.tabInfo {border: solid thin;
+    border-collapse: collapse;
+    margin-top: 6px;
+    background-color: #EECC88;
+    color: #000066;
+    font-family: Arial, Ubuntu;}
+
+th.titulo{background-color: #449977;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffff22;
+}
+
+th.linTH{color: #ffffff;
+    background-color: #33AA66;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th.colTH{ color: #ffffff;
+    background-color: #1188cc;
+    text-align:left;
+}
+
+td.preco{ color: #ee0000;
+    font-weight:bold;
+    vertical-align: middle;
+}
+
+fieldset{ margin: 20px 10px 0px 10px;}
+
+fieldset.fsEsq{float: left;
+    margin: 0px;
+    display: inline;
+}
+
+fieldset.fsDir {float: right;
+    margin: 0px;
+    display: inline;
+}
+
+input.inpGrande{width: 370px;
+    }
+
+div.botoes{float: right;
+    margin: 20px 10px 0px 10px;
+}
+
+label.colPri{display: block;
+    float: left;
+    width: 90px;
+}
+
+span.elemDir{float: right;
+    display:block;
+}
+
+input.inpMedio{width:120px;
+}
+
+input.numDD{width:30px;
+}
+
+input.numQD{width:50px;
+}
+
+div.divLinha{ width: 480px;
+    margin-bottom: 6px;}
+
+textarea{margin-top: 6px;
+    margin-bottom: 6px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+input{border-radius: 5px;
+    border: 1px solid lightgray;}
+
+select{border-radius: 5px;
+    border: 1px solid lightcoral;}
+
+h2{font-weight: bolder;
+    font-size: 20px;}
+
+input.inpEmail{ width: 200px;
+    }
+
+div.linhaCompras{ width: 500px;
+    margin-bottom: 6px;}
+
+fieldset.fsEsqCompras{float: left;
+    display: block;
+    width: 260px;}
+
+div.fsDirCompras{float: right;
+    display: block;
+    width: 180px;
+    }
+
+div.colPriCompras{float: left;
+    display: block;
+    width: 260px;
+    }
+div.buttons{ float: right;
+    display: inline;
+    margin: 8px;
+
+}
+textarea.text{height: 250px;}
